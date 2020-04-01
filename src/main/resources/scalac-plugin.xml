@@ -1,0 +1,5 @@
+<plugin>
+	<name>tostring</name>
+	<classname>jude.plugins.tostring.JudeToString</classname>
+</plugin>
+
