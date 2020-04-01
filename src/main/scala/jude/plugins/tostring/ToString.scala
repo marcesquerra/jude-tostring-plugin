@@ -11,7 +11,7 @@ class JudeToString(val global: Global) extends Plugin {
 
   val name = "tostring"
   val description =
-    "renames the == and != so that the default implementations can't be used"
+    "renames the toString method so that the default implementations can't be used"
   val components = List[PluginComponent](Component)
 
   private object Component extends PluginComponent with TypingTransformers {
